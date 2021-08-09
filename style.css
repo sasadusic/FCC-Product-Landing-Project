@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+body{
+    position: relative;
+    width: 100vw;
+    /* height: 100%; */
+    background-image: url(img/background.jpg);
+    /* background-position: center center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#header{
+    position: fixed;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    top: 0;
+    background: rgba(75, 44, 16, 0.521);
+    z-index: 100;
+    padding: 30px;
+    justify-content: space-between;
+}
+#header #header-img{
+    width: 100px;
+    margin-left: 100px; 
+    
+}
+#header #nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+#header #nav-bar ul li{
+    margin-right: 60px;
+    margin-top: 25px;
+    
+}
+#header #nav-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+#item-2{
+    position: relative;
+    width: 100%;
+    align-items: center;
+    height: 100vh;
+}
+#item-2 h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 400px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+#item-2 p{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+#item-3{
+    position: relative;
+    height: 100vh;
+}
+#item-3 .inner-item{
+    position: relative;
+    display: flex;
+}
+#item-3 .inner-item .icon{
+    position: relative;
+    left: 30%;
+    margin-bottom: 40px;
+}
+#item-3 .inner-item .text{
+    position: relative;
+    left: 35%;
+}
+#item-3 .inner-item .text h2{
+    margin-bottom: 13px;
+}
+#item-4{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#item-4 .flex-col{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    left: 25%;
+}
+#video{
+    max-width: 500px;
+    margin: 10px;
+}
+#img{
+    width: 500px;
+    margin: 10px;
+}
+#item-5{
+    position: relative;
+    margin: 100px;
+}
+#item-5 form{
+    position: relative;
+    left: 30%;
+}
+#item-5 form label{
+    position: relative;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+#item-5 form input{
+    width: 500px;
+    height: 40px;
+    margin: 15px 0 10px 0;
+    border: none;
+    padding: 5px;
+    background: rgba(71, 25, 15, 0.548);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.582);
+    border-right: 1px solid rgba(255, 255, 255, 0.596);
+}
+#item-5 form input#submit{
+    width: 200px;
+    background: rgb(49, 18, 11);
+    border: none;
+}
+@media (max-width: 1000px) {
+    #item-4{
+        display: block;
+    }
+    
+}
